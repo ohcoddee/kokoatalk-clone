@@ -1,0 +1,77 @@
+@import "reset.css";
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+}
+.status-bar__column:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-header {
+  margin: 90px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-header__title {
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.login-header__text {
+  width: 50%;
+  opacity: 0.6;
+  line-height: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+
+.login-form__input {
+  border: none;
+  padding: 10px 0;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.login-form__text {
+  padding-bottom: 25px;
+}
+
+.login-form__text::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.login-form__text:focus {
+  border-color: #f2da00;
+}
+
+.login-form__submit {
+  border: none;
+  padding: 20px;
+  background-color: #f2da00;
+  color: dimgray;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.find-account {
+  margin: 10px 0 300px 0;
+  text-align: center;
+  text-decoration: none;
+  color: dimgray;
+  font-weight: 500;
+}
