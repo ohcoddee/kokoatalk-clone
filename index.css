@@ -63,7 +63,7 @@
   border: none;
   padding: 20px;
   background-color: #f2da00;
-  color: dimgrey;
+  color: dimgray;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -72,6 +72,6 @@
   margin: 10px 0 300px 0;
   text-align: center;
   text-decoration: none;
-  color: dimgrey;
+  color: dimgray;
   font-weight: 500;
 }
