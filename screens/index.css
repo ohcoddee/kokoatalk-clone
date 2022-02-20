@@ -1,10 +1,22 @@
-@import "reset.css";
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.whole-display {
+  width: 500px;
+  height: 1000px;
+}
 
 .status-bar {
+  font-weight: 550;
   display: flex;
   justify-content: space-between;
   position: relative;
   padding: 10px;
+  position: fixed;
+  width: inherit;
+  top: 0px;
 }
 .status-bar__column:nth-child(2) {
   position: absolute;
@@ -56,20 +68,26 @@
 }
 
 .login-form__text:focus {
-  border-color: #f2da00;
+  border-color: var(--yellow);
 }
 
 .login-form__submit {
   border: none;
   padding: 20px;
-  background-color: #f2da00;
+  background-color: var(--yellow);
   color: dimgray;
   cursor: pointer;
   border-radius: 5px;
 }
 
+.login-form__submit:active {
+  background-color: dimgray;
+  color: var(--yellow);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
 .find-account {
-  margin: 10px 0 300px 0;
+  margin: 10px 0 0 0;
   text-align: center;
   text-decoration: none;
   color: dimgray;
