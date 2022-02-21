@@ -1,8 +1,8 @@
 .user-component {
   margin-top: 20px;
   margin-left: var(--horizontal-space);
-
-  border: 2px solid pink;
+  display: flex;
+  justify-content: space-between;
 }
 
 .user-component,
@@ -16,9 +16,6 @@
   height: 70px;
   border-radius: 25px;
   margin-right: 20px;
-}
-
-.user-component__text {
 }
 
 .user-component__title {
@@ -41,10 +38,27 @@
   justify-content: space-between;
 }
 
-.friends-screen__channel-header {
-}
-
-.user-component__avatar-sm {
+.user-component__avatar--sm {
   width: 50px;
   height: 50px;
+  border-radius: 20px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 500;
+  font-size: larger;
+}
+
+.user-component__time {
+  margin: 0 0 7px 0;
+  color: #bfbfbf;
+  font-size: 15px;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
 }

@@ -33,11 +33,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
   width: 18px;
   height: 18px;
   font-size: 12px;
   border-radius: 9px;
+  position: absolute;
   left: 15px;
   bottom: 10px;
 }

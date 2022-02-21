@@ -14,3 +14,8 @@
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
+
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+}
