@@ -1,0 +1,11 @@
+.alt-header {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alt-header-column h1 {
+  font-size: 28px;
+  font-weight: 600;
+}

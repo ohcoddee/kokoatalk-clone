@@ -13,14 +13,14 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding: 10px;
+  padding-top: 10px;
   position: fixed;
   width: inherit;
   top: 0px;
 }
 .status-bar__column:nth-child(2) {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

@@ -4,8 +4,12 @@
 @import "../components/screen-header.css";
 @import "../components/user-components.css";
 @import "../components/badge.css";
+@import "../components/icon-row.css";
+@import "../components/alt-screen-header.css";
 /*screens*/
 @import "index.css";
 @import "variables.css";
 @import "friends.css";
 @import "find.css";
+@import "more.css";
+@import "settings.css";

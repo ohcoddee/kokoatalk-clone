@@ -27,6 +27,20 @@
   margin-top: 5px;
   font-size: 15px;
   color: #9b9b9b;
+  display: flex;
+  text-align: center;
+}
+
+.exclamation-mark {
+  width: 14px;
+  height: 14px;
+  border: 2px solid tomato;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: tomato;
+  margin-left: 5px;
 }
 
 .friends-screen__channel {
