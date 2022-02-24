@@ -6,24 +6,40 @@ body {
 .whole-display {
   width: 500px;
   height: 1000px;
+  position: relative;
 }
 
 .status-bar {
   font-weight: 550;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
-  padding-top: 10px;
+  /* padding: 5px; */
   position: fixed;
   width: inherit;
   top: 0px;
 }
+.status-bar__column {
+  padding: 5px;
+}
+.status-bar__column:first-child {
+  width: 33%;
+  text-align: left;
+}
 .status-bar__column:nth-child(2) {
+  width: 33%;
+  text-align: center;
+}
+.status-bar__column:last-child {
+  width: 33%;
+  text-align: right;
+}
+/* .status-bar__column:nth-child(2) {
   position: absolute;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .login-header {
   margin: 90px 0;
@@ -39,7 +55,6 @@ body {
 }
 
 .login-header__text {
-  width: 50%;
   opacity: 0.6;
   line-height: 20px;
 }

@@ -2,18 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 20px 10px 20px;
-  width: inherit;
+  padding: 50px 10px 10px 10px;
+  /* width: inherit; */
   position: relative;
 }
 .screen-header__title {
   font-size: 30px;
   font-weight: 600;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .screen-header__eachicon {
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .screen-header__eachicon-settings-icon {
@@ -21,7 +21,8 @@
   height: 4px;
   background-color: tomato;
   border-radius: 2px;
-  position: absolute;
+  /* position: absolute;
   top: 58px;
-  right: 32px;
+  right: 32px; */
+  /* border: 1px solid black; */
 }
