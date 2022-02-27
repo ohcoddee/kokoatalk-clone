@@ -10,35 +10,73 @@
 
   <body>
     <div class="whole-display chatroom-backgroundcolor">
-      <div class="status-bar">
-        <div class="status-bar__column">
-          <span>No service</span>
-          <i class="fas fa-wifi"></i>
+      <header class="fixed-header">
+        <div class="status-bar status-bar--chatroom">
+          <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+          </div>
+          <div class="status-bar__column">
+            <span>18:43</span>
+          </div>
+          <div class="status-bar__column">
+            <span>45%</span>
+            <i class="fas fa-battery-half"></i>
+            <i class="fas fa-bolt"></i>
+          </div>
         </div>
-        <div class="status-bar__column">
-          <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-          <span>45%</span>
-          <i class="fas fa-battery-half"></i>
-          <i class="fas fa-bolt"></i>
-        </div>
-      </div>
 
-      <header class="alt-header">
-        <div class="alt-header-column">
-          <a href="chats.html"><i class="fa-solid fa-angle-left fa-2x"></i></a>
-        </div>
-        <div class="alt-header-column"><span>Ohcoddee</span></div>
-        <div class="alt-header-column">
-          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
-          <i class="fas fa-bars fa-xl"></i>
+        <div class="alt-header alt-header-column--chatroom">
+          <div class="alt-header-column">
+            <a href="chats.html"
+              ><i class="fa-solid fa-angle-left fa-2x"></i
+            ></a>
+          </div>
+          <div class="alt-header-column alt-header-title">
+            <span>Ohcoddee</span>
+          </div>
+          <div class="alt-header-column">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            <i class="fas fa-bars fa-xl"></i>
+          </div>
         </div>
       </header>
 
-      <main class="main-screen"></main>
-    </div>
+      <main class="main-screen main-chat">
+        <div class="chat__timestamp">Monday, February 28, 2022</div>
+        <div class="message-row">
+          <img src="profile.jpg" />
+          <div class="message-row__content">
+            <span class="message__author">Ohcoddee</span>
+            <div class="message__info">
+              <span class="message__bubble">Hello!</span>
+              <span class="message__time">21:27</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">Hey~</span>
+              <span class="message__time">21:27</span>
+            </div>
+          </div>
+        </div>
+      </main>
 
+      <form class="reply">
+        <div class="reply__column">
+          <i class="fas fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+          <input type="text" placeholder="Write a message..." />
+          <i class="fas fa-smile fa-lg"></i>
+          <button>
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </form>
+    </div>
     <script
       src="https://kit.fontawesome.com/18f5a1cd8d.js"
       crossorigin="anonymous"

@@ -1,9 +1,7 @@
 .user-component {
   margin-top: 20px;
-  /* margin-left: var(--horizontal-space); */
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid black; */
 }
 
 .user-component,
@@ -29,7 +27,7 @@
   font-size: 15px;
   color: #9b9b9b;
   display: flex;
-  text-align: center;
+  text-align: start;
 }
 
 .exclamation-mark {

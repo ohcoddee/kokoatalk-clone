@@ -1,0 +1,27 @@
+.status-bar {
+  font-weight: 550;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  position: fixed;
+  width: inherit;
+  top: 0px;
+
+  background-color: white;
+}
+
+.status-bar__column {
+  padding: 5px;
+}
+.status-bar__column:first-child {
+  width: 33%;
+  text-align: left;
+}
+.status-bar__column:nth-child(2) {
+  width: 33%;
+  text-align: center;
+}
+.status-bar__column:last-child {
+  width: 33%;
+  text-align: right;
+}

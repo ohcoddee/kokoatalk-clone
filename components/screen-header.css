@@ -3,13 +3,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 50px 10px 10px 10px;
-  /* width: inherit; */
   position: relative;
 }
 .screen-header__title {
   font-size: 30px;
   font-weight: 600;
-  /* margin-bottom: 15px; */
 }
 
 .screen-header__eachicon {
@@ -21,8 +19,7 @@
   height: 4px;
   background-color: tomato;
   border-radius: 2px;
-  /* position: absolute;
-  top: 58px;
-  right: 32px; */
-  /* border: 1px solid black; */
+  position: absolute;
+  top: 50px;
+  right: 5px;
 }

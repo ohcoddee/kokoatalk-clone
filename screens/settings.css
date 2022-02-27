@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 .settings__settings-column {
   display: flex;
