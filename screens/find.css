@@ -78,6 +78,7 @@
 .openpost-members__status {
   color: violet;
 }
+
 .openpost-thumbnail {
   position: relative;
 }
@@ -100,6 +101,24 @@
   right: 3px;
   bottom: 5px;
   font-size: 13px;
+}
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.openpost-thumbnail__text i:hover {
+  will-change: transform;
+  animation: heartBeat 1s ease-in-out infinite;
 }
 .openpost-thumbnail__text i {
   margin-right: 7px;
